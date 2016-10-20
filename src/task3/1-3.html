@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Task3</title>
+		<style>
+			img {
+				height: 80px;
+				width: 80px;
+				display: block;
+				border: 1px solid #CCCCCC;
+			}
+			
+			.container {
+				min-width: 600px;
+				margin: 20px;
+				padding: 20px;
+				background: #eee;
+				border: 1px solid #ccc;
+				overflow: auto;
+				position: relative;
+			}
+			/*
+			 * 尝试两种方法，左栏通过定位，右栏通过浮动
+			 */
+			
+			.left {
+				position: absolute;
+				top: 20px;
+				left: 20px;
+				padding: 20px;
+				width: 160px;
+				background: #fff;
+				border: 1px solid #ccc;
+			}
+			
+			.left span {
+				position: absolute;
+				right: 20px;
+				top: 20px;
+			}
+			
+			.right {
+				background: #FFFFFF;
+				width: 80px;
+				padding: 20px;
+				float: right;
+			}
+			.right img{
+				margin-bottom: 20px;
+			}
+			.middle {
+				padding: 20px;
+				background: #FFFFFF;
+				margin-left: 220px;
+				margin-right: 140px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="left">
+				<img src="img/logo.jpeg" />
+				<span>木有团队</span>
+			</div>
+
+			<div class="right">
+				<img src="img/member.jpg"/>
+				<img src="img/member2.jpg"/>
+				<img src="img/member3.jpg"/>
+				<img src="img/member4.jpg"/>
+			</div>
+
+			<div class="middle">
+				<p>呃...这个环节好尴尬，木有团队，就说下自己吧</p>
+				<p>记得我是报名截止日期的那天晚上才知道百度前端学院的。</p>
+				<p>当天晚上向几个团队提交了申请，然而没有一个团队鸟我，所以我没有正式加入过团队。。</p>
+				<p>第二天，我开始通过QQ加一些团队的群，看看有木有要我的，屡次被拒后，终于有一个团队收了我（记得队长叫陈俊）。队长首先教我用git，我当时只学会了git的安装....</p>
+				<p>后来，开始独立做一些任务，当时心比天高的我不屑做这种基础任务，直到做了几个任务后就再也做不下去了。慢慢的，群里的其他成员也因为学业，实习的缘故逐渐放弃了，原先热闹的群也安静下来</p>
+				<p>如今，我又开始学git，又开始一个一个任务的码字，我不知道自己能玩多久，只希望尽可能多完成一些任务。
+					<br /> 2016.10.20
+				</p>
+			</div>
+		</div>
+	</body>
+
+</html>
