@@ -1,0 +1,181 @@
+ul{
+	list-style: none;
+}
+h3,p,ul,li{
+	margin: 0;
+	padding: 0;
+}
+.clrededef{
+	color: #ededef;
+}
+
+
+
+.clearfix:after {
+ visibility:hidden;
+ display:block;
+ overflow: auto;
+ font-size:0;
+ content:" ";
+ clear:both;
+ height:0;
+}
+.text-R{
+	text-align:right;
+}
+.text-L{
+	text-align:left;
+}
+.float-R{
+	float: right;
+}
+.float-L{
+	float: left;
+}
+.font16px{
+	font-size:16px;
+}
+.font14px{
+	font-size:14px;
+}
+.font-ht{
+	font-family: "黑体";
+}
+.font-wryh{
+	font-family: "微软雅黑";
+}
+.font-st{
+	font-family: "宋体";
+}
+.border-radius50{
+	border-radius: 50%;
+}
+.padding5px{
+	padding: 5px;
+}
+
+
+
+
+.warp{
+	min-width: 1280px;
+	width: 1280px;
+	margin: 0 auto;
+}
+
+header{
+	line-height: 55px;
+	min-width: 768px;/*待修改*/
+	background: #2189bf;
+	height: 55px;
+}
+header>img{
+	margin: 10px 0 10px 50px;
+}
+.login{
+	float: right;
+	margin-right: 95px;
+}
+.login input{
+	outline: none;
+	width: 300px;
+	border: none;
+	height: 30px;
+	border-radius: 15px;
+	position: relative;
+	padding-left: 40px;
+	background: #fff url(../img/task_1_9_1_06.png) no-repeat  15px ;
+}
+.login a{
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	margin: 10px 20px 0;
+	padding-left: 20px;
+	color: #FFF;
+	text-decoration: none;
+	font: 12px"黑体";
+	background: url;
+	background: url(../img/task_1_9_1_08.png) no-repeat 0px -1px;
+}
+
+aside{
+	width: 260px;
+	background:#2b2e3d;
+	height:1210px;
+	color: #6e8095;
+}
+.user-info{
+	padding:20px 45px;
+	height: 110px;
+	background: #2a2e3d;
+	position: relative;
+}
+.user-photo-warpper{
+	text-align: center;
+	height: 45px;
+	width: 45px;
+	padding: 5px;
+	border:1px solid #fff;
+}
+.user-photo-warpper img{
+	height: 45px;
+	width: 43px;
+}
+.user-name{
+	position: absolute;
+	left: 120px;
+	top: 40px;
+	color: #f6f5f5;
+	width: 120px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.user-data{
+	margin-top: 20px;
+	text-align: center;
+}
+.user-data>div{
+	color: #6e8095;
+	font: 16px"黑体";
+	display: inline-block;
+}
+.user-fans{
+	border-left: 3px solid #313545;
+	padding-left:30px;
+}
+.user-collection{
+	padding-right: 30px;
+}
+
+
+
+
+
+
+.user-file-list>ul{
+	
+	text-align: center;
+	margin-left: -115px;
+}
+.user-file-list>ul>li{
+	font-family: "黑体";
+	padding: 15px 0;
+}
+.user-file-list>ul>li li{
+	font-size: 14px;
+	padding-left: 30px;
+	margin: 10px 0;	
+}
+.user-file-list>ul>li:first-child{
+	background: #393e4e;
+	position: relative;	
+}
+.user-file-list>ul>li:first-child::before{
+	position: absolute;
+	content: '';
+	height: 15px;
+	width: 15px;
+	margin: 5px 0 0 -20px;
+	background: url(../img/task_1_9_1_17.png) no-repeat;
+}
