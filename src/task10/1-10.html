@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Task10</title>
+	<style>
+		body{
+			margin: 0;
+		}
+		.container{
+			flex-wrap: wrap;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			padding: 20px;
+			width: 640px;
+			min-height: 300px;
+			border: 1px solid red;
+			margin: 0 auto;		
+		}
+		.container div{
+			border: 1px solid red;
+			width: 150px;
+		}
+		.div1{height: 120px;}
+		.div2{height: 100px;}
+		.div3{height: 40px;}	
+		.div4{
+			border: 1px solid blue !important;
+			height: 200px;
+		}
+		@media only screen and (max-width:640px ) {
+			
+			.container{
+				align-items: flex-start;
+				width: auto;
+				justify-content:space-between;
+			}
+			.container div{
+				margin-bottom: 10px;
+			}
+			.div4{
+				order: -1;
+			}
+		}
+	
+	</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="div1"></div>
+			<div class="div2"></div>
+			<div class="div3"></div>
+			<div class="div4"></div>
+		</div>
+	</body>
+</html>
